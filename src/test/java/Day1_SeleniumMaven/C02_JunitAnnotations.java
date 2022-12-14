@@ -1,6 +1,6 @@
 package Day1_SeleniumMaven;
 
-import org.junit.Test;
+import org.junit.*;
 
 public class C02_JunitAnnotations {
 
@@ -36,11 +36,28 @@ public class C02_JunitAnnotations {
     }
 
     @Test
+    @Ignore
     public void test04 (){
         System.out.println("4. test geliştirme aşamasında....");
     }
 
+    @Before
+    public void beforeEach(){
+        System.out.println("method öncesi kod bloğu çalıştı.");
+    }
 
+    @After
+    public void afterEach(){
+        System.out.println("method sonrası kod bloğu çalıştı.");
+    }
 
+    @BeforeClass
+    public static void beforeAll(){
+        System.out.println("methodların öncesindeki kod bloğu çalıştı.");
+    }
 
+    @AfterClass
+    public static void afterAll(){
+        System.out.println("methodların sonrasındaki kod bloğu çalıştı.");
+    }
 }
