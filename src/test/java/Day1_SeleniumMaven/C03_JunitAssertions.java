@@ -30,10 +30,17 @@ public class C03_JunitAssertions {
     }
 
     @Test
-    public void assertionTest(){
+    public void URLTest(){
     driver.get("https://www.amazon.com/");
     String currentUrl = driver.getCurrentUrl();
         Assert.assertTrue(currentUrl.contains("amazon"));
+    }
+
+    @Test
+    public void titleTest(){
+        driver.get("https://www.amazon.com/");
+        String title = driver.getTitle();
+       Assert.assertFalse(title.contains("Facebook"));
     }
 
 
