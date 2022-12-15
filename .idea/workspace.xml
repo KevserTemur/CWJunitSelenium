@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day01">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day1_SeleniumMaven/C03_JunitAssertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day1_SeleniumMaven/C03_JunitAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Pc/IdeaProjects/javalearn",
+    "last_opened_file_path": "C:/Users/Pc/IdeaProjects/CWJunitSelenium",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671049522717</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day01">
+      <created>1671050077158</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671050077158</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
