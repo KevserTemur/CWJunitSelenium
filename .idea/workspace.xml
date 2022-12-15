@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day01">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day02">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,12 +117,20 @@
       <option name="project" value="LOCAL" />
       <updated>1671050077158</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day02">
+      <created>1671131700712</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671131700712</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selenium" />
     <MESSAGE value="day01" />
-    <option name="LAST_COMMIT_MESSAGE" value="day01" />
+    <MESSAGE value="day02" />
+    <option name="LAST_COMMIT_MESSAGE" value="day02" />
   </component>
 </project>

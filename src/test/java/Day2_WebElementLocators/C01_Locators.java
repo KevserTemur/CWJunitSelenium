@@ -53,6 +53,13 @@ package Day2_WebElementLocators;
             password.sendKeys("Sifre");
         }
 
+        @Test
+        public void classLocator(){
+            // class locator "input__input"
+
+            WebElement email = driver.findElement(By.className("input__input"));
+            email.sendKeys("Class locator test");
+        }
 
 
 
