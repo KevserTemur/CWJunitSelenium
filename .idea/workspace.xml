@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day02">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S01_WebDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S02_JunitAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S03_JunitAssertions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" afterDir="false" />
     </list>
@@ -41,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Pc/IdeaProjects/CWJunitSelenium",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pc/IdeaProjects/CWJunitSelenium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.C01_Locators.absoluteXpath">
-    <configuration name="C01_Locators.absoluteXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.C01_Locators">
+    <configuration name="C01_Locators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
@@ -64,7 +68,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
       <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
-      <option name="METHOD_NAME" value="absoluteXpath" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_Locators.andAttributeXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2_WebElementLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
+      <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
+      <option name="METHOD_NAME" value="andAttributeXpath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_Locators.containsXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2_WebElementLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
+      <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
+      <option name="METHOD_NAME" value="containsXpath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,10 +121,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C01_Locators.orAttributeXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day2_WebElementLocators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
+      <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
+      <option name="METHOD_NAME" value="orAttributeXpath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01_Locators.absoluteXpath" />
+        <item itemvalue="JUnit.C01_Locators" />
         <item itemvalue="JUnit.C01_Locators.linkTextLocator" />
+        <item itemvalue="JUnit.C01_Locators.containsXpath" />
+        <item itemvalue="JUnit.C01_Locators.orAttributeXpath" />
+        <item itemvalue="JUnit.C01_Locators.andAttributeXpath" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671132304258</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day02">
+      <created>1671137660569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671137660569</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
