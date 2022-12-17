@@ -47,10 +47,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
         public void test01(){
             WebElement search = driver.findElement(By.name("q"));
             search.sendKeys("Green Mile" + Keys.ENTER);
-
             WebElement results = driver.findElement(By.id("result-stats"));
-
             System.out.println(results.getText());
         }
 
+        @Test
+        public void xpathPractice2() {
+            WebElement searchBox = driver.findElement(By.xpath("//input[@jsaction='paste:puy29d;']"));
+            searchBox.sendKeys("Premonition" + Keys.ENTER);
+            WebElement sonuçYazısı = driver.findElement(By.xpath("//div[@id='result-stats']"));
+            System.out.println(sonuçYazısı.getText());
+        }
+        @Test
+        public void xpathPractice3() {
+            WebElement searchBox = driver.findElement(By.xpath("//input[@jsaction='paste:puy29d;']"));
+            searchBox.sendKeys("The Curious Case of Benjamin Button"+ Keys.ENTER);
+            WebElement sonuçYazısı = driver.findElement(By.xpath("//div[@id='result-stats']"));
+            System.out.println(sonuçYazısı.getText());
+        }
     }
