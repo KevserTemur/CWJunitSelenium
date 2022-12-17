@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day02">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day3_LocatorPractice/C01_Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day3_LocatorPractice/C02_Practice.java" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day03">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day4_LocatorsPractice/C01_Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day3_LocatorPractice/C02_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day3_LocatorPractice/C02_Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_Practice.xpathPractice">
-    <configuration name="C01_Locators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2_WebElementLocators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
-      <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C01_Practice.test">
     <configuration name="C01_Locators.andOrXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -82,22 +66,6 @@
       <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
       <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
       <option name="METHOD_NAME" value="andOrXpath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_Locators.linkTextLocator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2_WebElementLocators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
-      <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
-      <option name="METHOD_NAME" value="linkTextLocator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,6 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C01_Practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day4_LocatorsPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day4_LocatorsPractice" />
+      <option name="MAIN_CLASS_NAME" value="Day4_LocatorsPractice.C01_Practice" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_Practice.xpathPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -135,13 +119,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C02_Practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3_LocatorPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day3_LocatorPractice" />
+      <option name="MAIN_CLASS_NAME" value="Day3_LocatorPractice.C02_Practice" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_Practice.test" />
+        <item itemvalue="JUnit.C02_Practice" />
         <item itemvalue="JUnit.C01_Practice.xpathPractice" />
         <item itemvalue="JUnit.C01_Locators.startsWithXpath" />
         <item itemvalue="JUnit.C01_Locators.andOrXpath" />
-        <item itemvalue="JUnit.C01_Locators.linkTextLocator" />
-        <item itemvalue="JUnit.C01_Locators" />
       </list>
     </recent_temporary>
   </component>
@@ -238,13 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671218612634</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day03">
+      <created>1671298497888</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671298497888</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selenium" />
     <MESSAGE value="day01" />
     <MESSAGE value="day02" />
-    <option name="LAST_COMMIT_MESSAGE" value="day02" />
+    <MESSAGE value="day03" />
+    <option name="LAST_COMMIT_MESSAGE" value="day03" />
   </component>
 </project>
