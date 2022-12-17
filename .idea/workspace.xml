@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day02">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S01_WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S02_JunitAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S03_JunitAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day3_LocatorPractice/C01_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day3_LocatorPractice/C02_Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2_WebElementLocators/C01_Locators.java" afterDir="false" />
     </list>
@@ -57,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_Locators">
+  <component name="RunManager" selected="JUnit.C01_Practice.xpathPractice">
     <configuration name="C01_Locators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -73,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Locators.andAttributeXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Locators.andOrXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
@@ -83,23 +81,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
       <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
-      <option name="METHOD_NAME" value="andAttributeXpath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_Locators.containsXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day2_WebElementLocators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
-      <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
-      <option name="METHOD_NAME" value="containsXpath" />
+      <option name="METHOD_NAME" value="andOrXpath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Locators.orAttributeXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_Locators.startsWithXpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +113,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Day2_WebElementLocators" />
       <option name="MAIN_CLASS_NAME" value="Day2_WebElementLocators.C01_Locators" />
-      <option name="METHOD_NAME" value="orAttributeXpath" />
+      <option name="METHOD_NAME" value="startsWithXpath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_Practice.xpathPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3_LocatorPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day3_LocatorPractice" />
+      <option name="MAIN_CLASS_NAME" value="Day3_LocatorPractice.C01_Practice" />
+      <option name="METHOD_NAME" value="xpathPractice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01_Locators" />
+        <item itemvalue="JUnit.C01_Practice.xpathPractice" />
+        <item itemvalue="JUnit.C01_Locators.startsWithXpath" />
+        <item itemvalue="JUnit.C01_Locators.andOrXpath" />
         <item itemvalue="JUnit.C01_Locators.linkTextLocator" />
-        <item itemvalue="JUnit.C01_Locators.containsXpath" />
-        <item itemvalue="JUnit.C01_Locators.orAttributeXpath" />
-        <item itemvalue="JUnit.C01_Locators.andAttributeXpath" />
+        <item itemvalue="JUnit.C01_Locators" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671137660569</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day02">
+      <created>1671218612634</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671218612634</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

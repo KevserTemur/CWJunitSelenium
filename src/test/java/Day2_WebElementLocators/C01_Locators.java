@@ -135,7 +135,15 @@ import java.util.List;
         public void containsXpath(){
             // xpath locator -> //input[contains(@name, 'key')]
 
-            WebElement email = driver.findElement(By.xpath("//input[contains(@name, 'key')]"));
+            WebElement email = driver.findElement(By.xpath("//input[contains(@name,'key')]"));
+            email.sendKeys("Karl relative xpath konusunu gayet basirili tamamladi");
+        }
+
+        @Test
+        public void startsWithXpath(){
+            // xpath locator -> //input[starts-with(@id.'session')]
+
+            WebElement email = driver.findElement(By.xpath("//input[starts-with(@id.'session')]"));
             email.sendKeys("Karl relative xpath konusunu gayet basirili tamamladi");
         }
 
