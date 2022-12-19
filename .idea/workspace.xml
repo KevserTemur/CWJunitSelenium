@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day05">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day5_LocatorPractice/C03_ChromeOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day5_LocatorPractice/C04_Checkboxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day5_LocatorPractice/C05_Checkboxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day5_LocatorPractice/C06_RadioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S04_Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S05_Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/zzz_kevser/S06_css.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +282,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671479343696</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day05">
+      <created>1671480946263</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480946263</updated>
+    </task>
+    <task id="LOCAL-00020" summary="day05">
+      <created>1671480960502</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480960502</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
