@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day4_LocatorsPractice/C02_CSSPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day5_LocatorPractice/C01_RelativeLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day5_LocatorPractice/C02_Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C02_CSSPractice.cssSelectortest">
+  <component name="RunManager" selected="JUnit.C01_RelativeLocator.relativeLocator">
     <configuration name="C01_Practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -70,17 +71,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Practice.xpathPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_RelativeLocator.relativeLocator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day3_LocatorPractice.*" />
+          <option name="PATTERN" value="Day5_LocatorPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day3_LocatorPractice" />
-      <option name="MAIN_CLASS_NAME" value="Day3_LocatorPractice.C01_Practice" />
-      <option name="METHOD_NAME" value="xpathPractice" />
+      <option name="PACKAGE_NAME" value="Day5_LocatorPractice" />
+      <option name="MAIN_CLASS_NAME" value="Day5_LocatorPractice.C01_RelativeLocator" />
+      <option name="METHOD_NAME" value="relativeLocator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_RelativeLocator.relativeLocator" />
         <item itemvalue="JUnit.C02_CSSPractice.cssSelectortest" />
         <item itemvalue="JUnit.C02_CSSPractice" />
         <item itemvalue="JUnit.C01_Practice.test" />
         <item itemvalue="JUnit.C02_Practice" />
-        <item itemvalue="JUnit.C01_Practice.xpathPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671301100711</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="day03">
+      <created>1671345440697</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671345440697</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
