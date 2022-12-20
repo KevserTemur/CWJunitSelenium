@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
+import java.util.List;
 
 public class C02_Dropdown {
 
@@ -27,7 +28,7 @@ public class C02_Dropdown {
     @After
     public void tearDown(){
         // test sonrasinda driver kapatmak (varsa raporlari dosyalamak) icin kullanilir.
-        //driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -48,11 +49,56 @@ public class C02_Dropdown {
 
     @Test
     public void selectByValue(){
+        driver.get("https://demo.guru99.com/test/newtours/register.php");
+        WebElement drpDown = driver.findElement(By.name("country"));
+        Select select = new Select(drpDown);
 
+        select.selectByValue("TURKEY");
     }
 
     @Test
     public void selectByVisibleText(){
+        driver.get("https://demo.guru99.com/test/newtours/register.php");
+        WebElement drpDown = driver.findElement(By.name("country"));
+        Select select = new Select(drpDown);
+
+        select.selectByVisibleText("NEPAL");
+    }
+    @Test
+    public void multipleSelect(){
+        driver.get("https://output.jsbin.com/osebed/2");
+        Select select = new Select(driver.findElement(By.id("fruits")));
+
+        System.out.println(select.isMultiple());
+
+        select.selectByValue("apple");
+        select.selectByIndex(3);
+    }
+
+    @Test
+    public void getOptions(){
+        driver.get("https://demo.guru99.com/test/newtours/register.php");
+        Select select = new Select(driver.findElement(By.name("country")));
+
+       List<WebElement> options = select.getOptions();
+        for (WebElement option :options){
+            System.out.println(option.getText());
+        }
+    }
+    @Test
+    public void getFirstSelectedOption(){
+        driver.get("https://output.jsbin.com/osebed/2");
+        Select select = new Select(driver.findElement(By.id("fruits")));
+
+        select.selectByIndex(3);
+        select.selectByIndex(2);
+
+        WebElement selectedOption = select.getFirstSelectedOption();
+        System.out.println(selectedOption.getText());
+        //select.getFirstSelectedOption().getText();
+        //Yani seçtiklerimiz arasında indeksi en küçük olanı verir
 
     }
+
+
 }
