@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day06">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day7_Iframe_WindowHandles/C01_IframeExample.java" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day07">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day7_Iframe_WindowHandles/C02_IframeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day7_Iframe_WindowHandles/C03_WindowHandles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,23 +55,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.homework_alerts.Alert">
-    <configuration name="C02_Dropdown.getOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
-      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.C02_Dropdown" />
-      <option name="METHOD_NAME" value="getOptions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C03_WindowHandles.windowHandle">
     <configuration name="C03_Alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -117,6 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_WindowHandles.windowHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day7_Iframe_WindowHandles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day7_Iframe_WindowHandles" />
+      <option name="MAIN_CLASS_NAME" value="Day7_Iframe_WindowHandles.C03_WindowHandles" />
+      <option name="METHOD_NAME" value="windowHandle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="homework_alerts.Alert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_WindowHandles.windowHandle" />
         <item itemvalue="JUnit.homework_alerts.Alert" />
         <item itemvalue="JUnit.C03_Alerts.alerts" />
         <item itemvalue="JUnit.C03_Alerts" />
         <item itemvalue="JUnit.C03_Alerts.alert" />
-        <item itemvalue="JUnit.C02_Dropdown.getOptions" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671644784928</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="day07">
+      <created>1671646223653</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1671646223653</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -436,6 +445,7 @@
     <MESSAGE value="day03" />
     <MESSAGE value="day05" />
     <MESSAGE value="day06" />
-    <option name="LAST_COMMIT_MESSAGE" value="day06" />
+    <MESSAGE value="day07" />
+    <option name="LAST_COMMIT_MESSAGE" value="day07" />
   </component>
 </project>
