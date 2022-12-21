@@ -17,7 +17,6 @@ public class C04_BasicAuthentication {
 
     @Before
     public void setup(){
-        //Driver ile ilgili her turlu initial(baslangic) islemi burada yapilir
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -26,8 +25,7 @@ public class C04_BasicAuthentication {
 
     @After
     public void tearDown(){
-        // test sonrasinda driver kapatmak (varsa raporlari dosyalamak) icin kullanilir.
-        //driver.quit();
+        driver.quit();
     }
 
     @Test
