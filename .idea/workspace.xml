@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day06">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C01_Faker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C01_Faker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/homework_alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/homework_dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/homework_select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C04_BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C04_BasicAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/Alert01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S01_WebDriverManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S02_JunitAnnotations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S03_JunitAssertions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S04_Locators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S05_Locators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S06_css.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,81 +63,81 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Alert01.test">
-    <configuration name="Alert01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.homework_alerts.Alert">
+    <configuration name="C02_Dropdown.getOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zzz_kevser.*" />
+          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="zzz_kevser" />
-      <option name="MAIN_CLASS_NAME" value="zzz_kevser.Alert01" />
+      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
+      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.C02_Dropdown" />
+      <option name="METHOD_NAME" value="getOptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_Alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
+      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.C03_Alerts" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Alert01.alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_Alerts.alert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zzz_kevser.*" />
+          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="zzz_kevser" />
-      <option name="MAIN_CLASS_NAME" value="zzz_kevser.Alert01" />
+      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
+      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.C03_Alerts" />
+      <option name="METHOD_NAME" value="alert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_Alerts.alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
+      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.C03_Alerts" />
       <option name="METHOD_NAME" value="alerts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Alert01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="homework_alerts.Alert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zzz_kevser.*" />
+          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="zzz_kevser" />
-      <option name="MAIN_CLASS_NAME" value="zzz_kevser.Alert01" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_RelativeLocator.relativeLocator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day5_LocatorPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day5_LocatorPractice" />
-      <option name="MAIN_CLASS_NAME" value="Day5_LocatorPractice.C01_RelativeLocator" />
-      <option name="METHOD_NAME" value="relativeLocator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_Task.teknosatest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day5_LocatorPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day5_LocatorPractice" />
-      <option name="MAIN_CLASS_NAME" value="Day5_LocatorPractice.C02_Task" />
-      <option name="METHOD_NAME" value="teknosatest" />
+      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
+      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.homework_alerts" />
+      <option name="METHOD_NAME" value="Alert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Alert01.test" />
-        <item itemvalue="JUnit.Alert01" />
-        <item itemvalue="JUnit.Alert01.alerts" />
-        <item itemvalue="JUnit.C02_Task.teknosatest" />
-        <item itemvalue="JUnit.C01_RelativeLocator.relativeLocator" />
+        <item itemvalue="JUnit.homework_alerts.Alert" />
+        <item itemvalue="JUnit.C03_Alerts.alerts" />
+        <item itemvalue="JUnit.C03_Alerts" />
+        <item itemvalue="JUnit.C03_Alerts.alert" />
+        <item itemvalue="JUnit.C02_Dropdown.getOptions" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +330,35 @@
       <option name="project" value="LOCAL" />
       <updated>1671560489460</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="day06">
+      <created>1671560638616</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671560638616</updated>
+    </task>
+    <task id="LOCAL-00026" summary="day06">
+      <created>1671569284447</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671569284447</updated>
+    </task>
+    <task id="LOCAL-00027" summary="day06">
+      <created>1671569297431</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1671569297431</updated>
+    </task>
+    <task id="LOCAL-00028" summary="day06">
+      <created>1671569309378</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1671569309378</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
