@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day06">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/homework_alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/homework_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/homework_select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day7_Iframe_WindowHandles/C01_IframeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C04_BasicAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C04_BasicAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/Alert01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S01_WebDriverManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S02_JunitAnnotations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S03_JunitAssertions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S04_Locators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S05_Locators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zzz_kevser/S06_css.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +348,84 @@
       <option name="project" value="LOCAL" />
       <updated>1671569309378</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="day06">
+      <created>1671644643835</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644643835</updated>
+    </task>
+    <task id="LOCAL-00030" summary="day06">
+      <created>1671644658041</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644658041</updated>
+    </task>
+    <task id="LOCAL-00031" summary="day06">
+      <created>1671644693516</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644693516</updated>
+    </task>
+    <task id="LOCAL-00032" summary="day06">
+      <created>1671644707886</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644707886</updated>
+    </task>
+    <task id="LOCAL-00033" summary="day06">
+      <created>1671644718220</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644718220</updated>
+    </task>
+    <task id="LOCAL-00034" summary="day06">
+      <created>1671644730385</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644730385</updated>
+    </task>
+    <task id="LOCAL-00035" summary="day06">
+      <created>1671644738729</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644738729</updated>
+    </task>
+    <task id="LOCAL-00036" summary="day06">
+      <created>1671644750392</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644750392</updated>
+    </task>
+    <task id="LOCAL-00037" summary="day06">
+      <created>1671644761509</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644761510</updated>
+    </task>
+    <task id="LOCAL-00038" summary="day06">
+      <created>1671644774033</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644774033</updated>
+    </task>
+    <task id="LOCAL-00039" summary="day06">
+      <created>1671644784928</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1671644784928</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
