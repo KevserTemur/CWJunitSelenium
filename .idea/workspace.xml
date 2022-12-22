@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day07">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C05_SeleniumWaits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day8_WindowHandles_Actions/C01_WindowHandles_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mentoring/Homework_22Aralık.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day7_Iframe_WindowHandles/C03_WindowHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day7_Iframe_WindowHandles/C03_WindowHandles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,30 +43,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Pc/IdeaProjects/CWJunitSelenium",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pc/IdeaProjects/CWJunitSelenium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.C03_WindowHandles">
-    <configuration name="C03_Alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.C01_WindowHandles_Actions.newWindow">
+    <configuration name="C01_WindowHandles_Actions.newWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
+          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
-      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.C03_Alerts" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
+      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C01_WindowHandles_Actions" />
+      <option name="METHOD_NAME" value="newWindow" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_WindowHandles_Actions.newWindow" />
         <item itemvalue="JUnit.C03_WindowHandles" />
         <item itemvalue="JUnit.C03_WindowHandles.windowHandle" />
         <item itemvalue="JUnit.homework_alerts.Alert" />
         <item itemvalue="JUnit.C03_Alerts.alerts" />
-        <item itemvalue="JUnit.C03_Alerts" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671652717366</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="day07">
+      <created>1671653502519</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1671653502519</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
