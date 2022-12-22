@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day07">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day6_DropDown_SeleniumWaits/C05_SeleniumWaits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day8_WindowHandles_Actions/C01_WindowHandles_Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mentoring/Homework_22Aralık.java" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day08">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day8_WindowHandles_Actions/C02_Actions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_WindowHandles_Actions.newWindow">
+  <component name="RunManager" selected="JUnit.C02_Actions.rightClick">
     <configuration name="C01_WindowHandles_Actions.newWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -72,17 +70,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Alerts.alerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WindowHandles_Actions.newtab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
+          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
-      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.C03_Alerts" />
-      <option name="METHOD_NAME" value="alerts" />
+      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
+      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C01_WindowHandles_Actions" />
+      <option name="METHOD_NAME" value="newtab" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Actions.rightClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
+      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C02_Actions" />
+      <option name="METHOD_NAME" value="rightClick" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,29 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_alerts.Alert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day6_DropDown_SeleniumWaits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day6_DropDown_SeleniumWaits" />
-      <option name="MAIN_CLASS_NAME" value="Day6_DropDown_SeleniumWaits.homework_alerts" />
-      <option name="METHOD_NAME" value="Alert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_Actions.rightClick" />
+        <item itemvalue="JUnit.C01_WindowHandles_Actions.newtab" />
         <item itemvalue="JUnit.C01_WindowHandles_Actions.newWindow" />
         <item itemvalue="JUnit.C03_WindowHandles" />
         <item itemvalue="JUnit.C03_WindowHandles.windowHandle" />
-        <item itemvalue="JUnit.homework_alerts.Alert" />
-        <item itemvalue="JUnit.C03_Alerts.alerts" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671653502519</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="day08">
+      <created>1671733226633</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1671733226633</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -460,6 +465,7 @@
     <MESSAGE value="day05" />
     <MESSAGE value="day06" />
     <MESSAGE value="day07" />
-    <option name="LAST_COMMIT_MESSAGE" value="day07" />
+    <MESSAGE value="day08" />
+    <option name="LAST_COMMIT_MESSAGE" value="day08" />
   </component>
 </project>
