@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day08">
-      <change afterPath="$PROJECT_DIR$/src/test/java/mentoring/22aralık_interview" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day8_WindowHandles_Actions/C04_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day8_WindowHandles_Actions/C05_Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C02_Actions.rightClick">
+  <component name="RunManager" selected="JUnit.C04_Actions">
     <configuration name="C01_WindowHandles_Actions.newWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -101,32 +103,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_WindowHandles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_Actions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day7_Iframe_WindowHandles.*" />
+          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day7_Iframe_WindowHandles" />
-      <option name="MAIN_CLASS_NAME" value="Day7_Iframe_WindowHandles.C03_WindowHandles" />
+      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
+      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C04_Actions" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_WindowHandles.windowHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_Actions.dragAndDropOffSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day7_Iframe_WindowHandles.*" />
+          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day7_Iframe_WindowHandles" />
-      <option name="MAIN_CLASS_NAME" value="Day7_Iframe_WindowHandles.C03_WindowHandles" />
-      <option name="METHOD_NAME" value="windowHandle" />
+      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
+      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C04_Actions" />
+      <option name="METHOD_NAME" value="dragAndDropOffSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C04_Actions" />
+        <item itemvalue="JUnit.C04_Actions.dragAndDropOffSet" />
         <item itemvalue="JUnit.C02_Actions.rightClick" />
         <item itemvalue="JUnit.C01_WindowHandles_Actions.newtab" />
         <item itemvalue="JUnit.C01_WindowHandles_Actions.newWindow" />
-        <item itemvalue="JUnit.C03_WindowHandles" />
-        <item itemvalue="JUnit.C03_WindowHandles.windowHandle" />
       </list>
     </recent_temporary>
   </component>
@@ -466,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671738534471</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="day08">
+      <created>1671738735281</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1671738735281</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
