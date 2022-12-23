@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day09">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C2_ScrolWithJSExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C3_RobotClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/robot.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,23 +54,12 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.C2_ScrolWithJSExecutor.doubleClickButton">
-    <configuration name="C02_Actions.rightClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
-      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C02_Actions" />
-      <option name="METHOD_NAME" value="rightClick" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\IdeaProjects\CWJunitSelenium\src\test\java\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.C3_RobotClass">
     <configuration name="C04_Actions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -81,22 +71,6 @@
       <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
       <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C04_Actions" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_Actions.dragAndDropOffSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
-      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C04_Actions" />
-      <option name="METHOD_NAME" value="dragAndDropOffSet" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,13 +106,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C3_RobotClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
+      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C3_RobotClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C3_RobotClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
+      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C3_RobotClass" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C3_RobotClass" />
+        <item itemvalue="JUnit.C3_RobotClass.test" />
         <item itemvalue="JUnit.C2_ScrolWithJSExecutor.doubleClickButton" />
         <item itemvalue="JUnit.C2_ScrolWithJSExecutor" />
         <item itemvalue="JUnit.C04_Actions" />
-        <item itemvalue="JUnit.C04_Actions.dragAndDropOffSet" />
-        <item itemvalue="JUnit.C02_Actions.rightClick" />
       </list>
     </recent_temporary>
   </component>
@@ -150,13 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00006" summary="day01">
-      <created>1671048997521</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1671048997521</updated>
     </task>
     <task id="LOCAL-00007" summary="day01">
       <created>1671049522717</created>
@@ -494,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671817781472</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="day09">
+      <created>1671819608357</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1671819608357</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
