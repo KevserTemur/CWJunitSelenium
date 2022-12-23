@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day08">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C1_ScrollActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mentoring/Homework_23Aralık.java" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day09">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C2_ScrolWithJSExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mentoring/22aralık_interview" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mentoring/interview01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mentoring/Homework_22Aralık.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mentoring/Homework_22Aralık.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,39 +53,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.C04_Actions">
-    <configuration name="C01_WindowHandles_Actions.newWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
-      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C01_WindowHandles_Actions" />
-      <option name="METHOD_NAME" value="newWindow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_WindowHandles_Actions.newtab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day8_WindowHandles_Actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day8_WindowHandles_Actions" />
-      <option name="MAIN_CLASS_NAME" value="Day8_WindowHandles_Actions.C01_WindowHandles_Actions" />
-      <option name="METHOD_NAME" value="newtab" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C2_ScrolWithJSExecutor.doubleClickButton">
     <configuration name="C02_Actions.rightClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -136,13 +101,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C2_ScrolWithJSExecutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
+      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C2_ScrolWithJSExecutor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C2_ScrolWithJSExecutor.doubleClickButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
+      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C2_ScrolWithJSExecutor" />
+      <option name="METHOD_NAME" value="doubleClickButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C2_ScrolWithJSExecutor.doubleClickButton" />
+        <item itemvalue="JUnit.C2_ScrolWithJSExecutor" />
         <item itemvalue="JUnit.C04_Actions" />
         <item itemvalue="JUnit.C04_Actions.dragAndDropOffSet" />
         <item itemvalue="JUnit.C02_Actions.rightClick" />
-        <item itemvalue="JUnit.C01_WindowHandles_Actions.newtab" />
-        <item itemvalue="JUnit.C01_WindowHandles_Actions.newWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -154,41 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00001" summary="selenium">
-      <created>1671041672782</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1671041672782</updated>
-    </task>
-    <task id="LOCAL-00002" summary="selenium">
-      <created>1671043493111</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1671043493111</updated>
-    </task>
-    <task id="LOCAL-00003" summary="day01">
-      <created>1671044350938</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1671044350938</updated>
-    </task>
-    <task id="LOCAL-00004" summary="day01">
-      <created>1671046971600</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1671046971600</updated>
-    </task>
-    <task id="LOCAL-00005" summary="day01">
-      <created>1671047389130</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1671047389130</updated>
     </task>
     <task id="LOCAL-00006" summary="day01">
       <created>1671048997521</created>
@@ -498,7 +459,42 @@
       <option name="project" value="LOCAL" />
       <updated>1671741210222</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="day09">
+      <created>1671817733690</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1671817733691</updated>
+    </task>
+    <task id="LOCAL-00051" summary="day09">
+      <created>1671817749758</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1671817749758</updated>
+    </task>
+    <task id="LOCAL-00052" summary="day09">
+      <created>1671817761016</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1671817761016</updated>
+    </task>
+    <task id="LOCAL-00053" summary="day09">
+      <created>1671817770124</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671817770125</updated>
+    </task>
+    <task id="LOCAL-00054" summary="day09">
+      <created>1671817781472</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1671817781472</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -511,6 +507,7 @@
     <MESSAGE value="day06" />
     <MESSAGE value="day07" />
     <MESSAGE value="day08" />
-    <option name="LAST_COMMIT_MESSAGE" value="day08" />
+    <MESSAGE value="day09" />
+    <option name="LAST_COMMIT_MESSAGE" value="day09" />
   </component>
 </project>
