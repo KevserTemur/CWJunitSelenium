@@ -16,10 +16,9 @@ public class C01_WebDriverManagerTest {
 
         // System.setProperty() yerine kullanıyoruz.
         WebDriverManager.chromedriver().setup();
-
         WebDriver driver = new ChromeDriver();
-
         driver.manage().window().maximize();
+
         driver.get("https://www.google.com/");
 
         String title = driver.getTitle();
