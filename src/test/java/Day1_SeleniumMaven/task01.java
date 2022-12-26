@@ -24,10 +24,13 @@ public class task01 {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
+
         System.out.println(driver.manage().window().getPosition());
         System.out.println(driver.manage().window().getSize());
+
         driver.manage().window().minimize();
         Thread.sleep(5000);
         driver.manage().window().maximize();
