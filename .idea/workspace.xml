@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day9">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day10_ApachePOI/C01_ExcelMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/excelfile.xlsx" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day10">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day10_ApachePOI/C02_ApachePoiTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/excelData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <recent name="C:\Users\Pc\IdeaProjects\CWJunitSelenium\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.C02_ApachePoiTask.apacheTask">
     <configuration name="C01_ExcelMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day10_ApachePOI.C01_ExcelMethods" />
       <module name="CWJunitSelenium" />
@@ -76,15 +76,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C7_FileExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C7_FileExist" />
+    <configuration name="C02_ApachePoiTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="PATTERN" value="Day10_ApachePOI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Day10_ApachePOI" />
+      <option name="MAIN_CLASS_NAME" value="Day10_ApachePOI.C02_ApachePoiTask" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_ApachePoiTask.apacheTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day10_ApachePOI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day10_ApachePOI" />
+      <option name="MAIN_CLASS_NAME" value="Day10_ApachePOI.C02_ApachePoiTask" />
+      <option name="METHOD_NAME" value="apacheTask" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,29 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C8_FileExists.fileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
-      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C8_FileExists" />
-      <option name="METHOD_NAME" value="fileExists" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_ApachePoiTask.apacheTask" />
+        <item itemvalue="JUnit.C02_ApachePoiTask" />
         <item itemvalue="Application.C01_ExcelMethods" />
         <item itemvalue="JUnit.C10_FileUpload.fileUpload" />
         <item itemvalue="JUnit.C10_FileUpload" />
-        <item itemvalue="JUnit.C8_FileExists.fileExists" />
-        <item itemvalue="Application.C7_FileExist" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00033" summary="day06">
-      <created>1671644718220</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644718220</updated>
     </task>
     <task id="LOCAL-00034" summary="day06">
       <created>1671644730385</created>
@@ -498,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672082378763</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="day10">
+      <created>1672084319125</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1672084319125</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -515,6 +517,7 @@
     <MESSAGE value="day6" />
     <MESSAGE value="task" />
     <MESSAGE value="day9" />
-    <option name="LAST_COMMIT_MESSAGE" value="day9" />
+    <MESSAGE value="day10" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10" />
   </component>
 </project>
