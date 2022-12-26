@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day9">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C9_FileDownLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C10_FileUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="C:\Users\Pc\IdeaProjects\CWJunitSelenium\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C8_FileExists.fileExists">
+  <component name="RunManager" selected="JUnit.C10_FileUpload.fileUpload">
     <configuration name="C7_FileExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C7_FileExist" />
       <module name="CWJunitSelenium" />
@@ -71,6 +71,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C10_FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
+      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C10_FileUpload" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C10_FileUpload.fileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
+      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C10_FileUpload" />
+      <option name="METHOD_NAME" value="fileUpload" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,36 +118,6 @@
       <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C8_FileExists" />
       <option name="METHOD_NAME" value="fileExists" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="task04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day1_SeleniumMaven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day1_SeleniumMaven" />
-      <option name="MAIN_CLASS_NAME" value="Day1_SeleniumMaven.task04" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="task05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day1_SeleniumMaven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day1_SeleniumMaven" />
-      <option name="MAIN_CLASS_NAME" value="Day1_SeleniumMaven.task05" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C10_FileUpload.fileUpload" />
+        <item itemvalue="JUnit.C10_FileUpload" />
         <item itemvalue="JUnit.C8_FileExists.fileExists" />
         <item itemvalue="Application.C7_FileExist" />
         <item itemvalue="JUnit.task05.test3" />
-        <item itemvalue="JUnit.task05" />
-        <item itemvalue="JUnit.task04" />
       </list>
     </recent_temporary>
   </component>
@@ -155,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00030" summary="day06">
-      <created>1671644658041</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644658041</updated>
     </task>
     <task id="LOCAL-00031" summary="day06">
       <created>1671644693516</created>
@@ -499,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672078511317</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="day9">
+      <created>1672080763283</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1672080763283</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
