@@ -65,8 +65,15 @@ Print country, area key value pairs as map object.
         Map<String, String> countryAreas = new HashMap<>();
         for (int row = 1; row<totalRow; row++){
             String country = sheet1.getRow(row).getCell(0).toString();
+            System.out.println((row+1) + ". satır = " + country); // her satırdaki ülke yazılıyor
 
-            System.out.println((row+1) + ". satır = " + country);
+            String area = sheet1.getRow(row).getCell(1).toString();
+            System.out.println("Country = " + country+ "- Area = "+ area);
+
+            countryAreas.put(country,area); // map in içine attık
+            System.out.println(countryAreas);
+
+
         }
     }
 }
