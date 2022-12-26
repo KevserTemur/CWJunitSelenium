@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day9">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C10_FileUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C10_FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C10_FileUpload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00031" summary="day06">
-      <created>1671644693516</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644693516</updated>
     </task>
     <task id="LOCAL-00032" summary="day06">
       <created>1671644707886</created>
@@ -500,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672080763283</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="day9">
+      <created>1672081710852</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1672081710852</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -25,7 +25,7 @@ public class C10_FileUpload extends BaseTest {
         WebElement uploadFile = driver.findElement(By.id("file-submit"));
         uploadFile.click();
 
-        WebElement uploadedMessage = driver.findElement(By.tagName("h3"));
+        WebElement uploadedMessage = driver.findElement(By.id("uploaded-files"));
         Assert.assertTrue(uploadedMessage.isDisplayed());
         Assert.assertEquals("File Uploaded!", uploadedMessage.getText());
     }
