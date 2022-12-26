@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="task">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/test08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day1_SeleniumMaven/task03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +58,7 @@
       <recent name="C:\Users\Pc\IdeaProjects\CWJunitSelenium\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.task02.task02">
+  <component name="RunManager" selected="Application.task03">
     <configuration name="task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day1_SeleniumMaven.task01" />
       <module name="CWJunitSelenium" />
@@ -79,17 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C4_Cookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1_SeleniumMaven.task03" />
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="PATTERN" value="Day1_SeleniumMaven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
-      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C4_Cookies" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,18 +101,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C4_Cookies.deleteCookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="task02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="PATTERN" value="Day1_SeleniumMaven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
-      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C4_Cookies" />
-      <option name="METHOD_NAME" value="deleteCookies" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Day1_SeleniumMaven" />
+      <option name="MAIN_CLASS_NAME" value="Day1_SeleniumMaven.task02" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task03" />
+        <item itemvalue="JUnit.task02" />
         <item itemvalue="JUnit.task02.task02" />
         <item itemvalue="Application.task01" />
         <item itemvalue="JUnit.C4_Cookies.cookies" />
-        <item itemvalue="JUnit.C4_Cookies" />
-        <item itemvalue="JUnit.C4_Cookies.deleteCookies" />
       </list>
     </recent_temporary>
   </component>
@@ -160,62 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00015" summary="day03">
-      <created>1671301100711</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1671301100711</updated>
-    </task>
-    <task id="LOCAL-00016" summary="day03">
-      <created>1671345440697</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1671345440697</updated>
-    </task>
-    <task id="LOCAL-00017" summary="day05">
-      <created>1671475194777</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1671475194777</updated>
-    </task>
-    <task id="LOCAL-00018" summary="day05">
-      <created>1671479343696</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1671479343696</updated>
-    </task>
-    <task id="LOCAL-00019" summary="day05">
-      <created>1671480946263</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1671480946263</updated>
-    </task>
-    <task id="LOCAL-00020" summary="day05">
-      <created>1671480960502</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1671480960502</updated>
-    </task>
-    <task id="LOCAL-00021" summary="day05">
-      <created>1671482282697</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1671482282697</updated>
-    </task>
-    <task id="LOCAL-00022" summary="day06">
-      <created>1671560457176</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1671560457176</updated>
     </task>
     <task id="LOCAL-00023" summary="day06">
       <created>1671560470558</created>
@@ -504,7 +438,63 @@
       <option name="project" value="LOCAL" />
       <updated>1671898342513</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="task">
+      <created>1671914632036</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914632036</updated>
+    </task>
+    <task id="LOCAL-00065" summary="task">
+      <created>1671914644609</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914644609</updated>
+    </task>
+    <task id="LOCAL-00066" summary="task">
+      <created>1671914656815</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914656816</updated>
+    </task>
+    <task id="LOCAL-00067" summary="task">
+      <created>1671914779665</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914779665</updated>
+    </task>
+    <task id="LOCAL-00068" summary="task">
+      <created>1671914790256</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914790256</updated>
+    </task>
+    <task id="LOCAL-00069" summary="task">
+      <created>1671914800610</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914800610</updated>
+    </task>
+    <task id="LOCAL-00070" summary="task">
+      <created>1671914810604</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914810604</updated>
+    </task>
+    <task id="LOCAL-00071" summary="task">
+      <created>1671914819889</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1671914819889</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
