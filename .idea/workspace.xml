@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day11">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day11_ApachePOI_WriteExcel/C02_WriteExcelExample02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C11_AssertElementTrick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day12_Screenshots/C01_Screenshots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/excelData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/excelData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day8_WindowHandles_Actions/C01_WindowHandles_Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day8_WindowHandles_Actions/C01_WindowHandles_Actions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,22 @@
       <recent name="C:\Users\Pc\IdeaProjects\CWJunitSelenium\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_WriteExcelExample02.changeExcelData">
+  <component name="RunManager" selected="JUnit.C01_Screenshots">
+    <configuration name="C01_Screenshots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CWJunitSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day12_Screenshots.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day12_Screenshots" />
+      <option name="MAIN_CLASS_NAME" value="Day12_Screenshots.C01_Screenshots" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_WriteExcelExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
@@ -90,22 +105,6 @@
       <option name="PACKAGE_NAME" value="Day11_ApachePOI_WriteExcel" />
       <option name="MAIN_CLASS_NAME" value="Day11_ApachePOI_WriteExcel.C01_WriteExcelExample" />
       <option name="METHOD_NAME" value="WriteExcel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ApachePoiTask.apacheTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CWJunitSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day10_ApachePOI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day10_ApachePOI" />
-      <option name="MAIN_CLASS_NAME" value="Day10_ApachePOI.C02_ApachePoiTask" />
-      <option name="METHOD_NAME" value="apacheTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_Screenshots" />
         <item itemvalue="JUnit.C02_WriteExcelExample02.changeExcelData" />
         <item itemvalue="JUnit.C01_WriteExcelExample.WriteExcel" />
         <item itemvalue="JUnit.C01_WriteExcelExample" />
         <item itemvalue="JUnit.Homework_22Aralık.Homework_22Aralık" />
-        <item itemvalue="JUnit.C02_ApachePoiTask.apacheTask" />
       </list>
     </recent_temporary>
   </component>
@@ -161,20 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00041" summary="day07">
-      <created>1671652717366</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1671652717366</updated>
-    </task>
-    <task id="LOCAL-00042" summary="day07">
-      <created>1671653502519</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1671653502519</updated>
     </task>
     <task id="LOCAL-00043" summary="day08">
       <created>1671733226633</created>
@@ -505,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672164888257</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="day11">
+      <created>1672166501189</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1672166501189</updated>
+    </task>
+    <task id="LOCAL-00091" summary="day11">
+      <created>1672167266958</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1672167266958</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

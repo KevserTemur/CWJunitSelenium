@@ -5,11 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import utilities.BaseTest;
-
 import java.util.Iterator;
 import java.util.Set;
 
-import static com.sun.org.apache.xml.internal.security.keys.keyresolver.KeyResolver.iterator;
 
 public class C01_WindowHandles_Actions extends BaseTest {
 
