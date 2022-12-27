@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day10">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day10_ApachePOI/C02_ApachePoiTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day10_ApachePOI/C02_ApachePoiTask.java" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day11">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day11_ApachePOI_WriteExcel/C02_WriteExcelExample02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day9_JSEScroll_Cookies_Files/C11_AssertElementTrick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/excelData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/excelData.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Pc/IdeaProjects/CWJunitSelenium/src/test/java/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pc/IdeaProjects/CWJunitSelenium/src/test/java/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pc\IdeaProjects\CWJunitSelenium\src\test\java\resources" />
@@ -60,31 +63,34 @@
       <recent name="C:\Users\Pc\IdeaProjects\CWJunitSelenium\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_ApachePoiTask.apacheTask">
-    <configuration name="C01_ExcelMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10_ApachePOI.C01_ExcelMethods" />
+  <component name="RunManager" selected="JUnit.C02_WriteExcelExample02.changeExcelData">
+    <configuration name="C01_WriteExcelExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10_ApachePOI.*" />
+          <option name="PATTERN" value="Day11_ApachePOI_WriteExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Day11_ApachePOI_WriteExcel" />
+      <option name="MAIN_CLASS_NAME" value="Day11_ApachePOI_WriteExcel.C01_WriteExcelExample" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ApachePoiTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WriteExcelExample.WriteExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10_ApachePOI.*" />
+          <option name="PATTERN" value="Day11_ApachePOI_WriteExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day10_ApachePOI" />
-      <option name="MAIN_CLASS_NAME" value="Day10_ApachePOI.C02_ApachePoiTask" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Day11_ApachePOI_WriteExcel" />
+      <option name="MAIN_CLASS_NAME" value="Day11_ApachePOI_WriteExcel.C01_WriteExcelExample" />
+      <option name="METHOD_NAME" value="WriteExcel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,32 +111,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C10_FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_WriteExcelExample02.changeExcelData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="PATTERN" value="Day11_ApachePOI_WriteExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
-      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C10_FileUpload" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Day11_ApachePOI_WriteExcel" />
+      <option name="MAIN_CLASS_NAME" value="Day11_ApachePOI_WriteExcel.C02_WriteExcelExample02" />
+      <option name="METHOD_NAME" value="changeExcelData" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C10_FileUpload.fileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Homework_22Aralık.Homework_22Aralık" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CWJunitSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9_JSEScroll_Cookies_Files.*" />
+          <option name="PATTERN" value="mentoring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day9_JSEScroll_Cookies_Files" />
-      <option name="MAIN_CLASS_NAME" value="Day9_JSEScroll_Cookies_Files.C10_FileUpload" />
-      <option name="METHOD_NAME" value="fileUpload" />
+      <option name="PACKAGE_NAME" value="mentoring" />
+      <option name="MAIN_CLASS_NAME" value="mentoring.Homework_22Aralık" />
+      <option name="METHOD_NAME" value="Homework_22Aralık" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_WriteExcelExample02.changeExcelData" />
+        <item itemvalue="JUnit.C01_WriteExcelExample.WriteExcel" />
+        <item itemvalue="JUnit.C01_WriteExcelExample" />
+        <item itemvalue="JUnit.Homework_22Aralık.Homework_22Aralık" />
         <item itemvalue="JUnit.C02_ApachePoiTask.apacheTask" />
-        <item itemvalue="JUnit.C02_ApachePoiTask" />
-        <item itemvalue="Application.C01_ExcelMethods" />
-        <item itemvalue="JUnit.C10_FileUpload.fileUpload" />
-        <item itemvalue="JUnit.C10_FileUpload" />
       </list>
     </recent_temporary>
   </component>
@@ -154,48 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00035" summary="day06">
-      <created>1671644738729</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644738729</updated>
-    </task>
-    <task id="LOCAL-00036" summary="day06">
-      <created>1671644750392</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644750392</updated>
-    </task>
-    <task id="LOCAL-00037" summary="day06">
-      <created>1671644761509</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644761510</updated>
-    </task>
-    <task id="LOCAL-00038" summary="day06">
-      <created>1671644774033</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644774033</updated>
-    </task>
-    <task id="LOCAL-00039" summary="day06">
-      <created>1671644784928</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1671644784928</updated>
-    </task>
-    <task id="LOCAL-00040" summary="day07">
-      <created>1671646223653</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1671646223653</updated>
     </task>
     <task id="LOCAL-00041" summary="day07">
       <created>1671652717366</created>
@@ -498,7 +463,49 @@
       <option name="project" value="LOCAL" />
       <updated>1672086358203</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="day10">
+      <created>1672086636887</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1672086636887</updated>
+    </task>
+    <task id="LOCAL-00085" summary="day11">
+      <created>1672164621601</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1672164621601</updated>
+    </task>
+    <task id="LOCAL-00086" summary="day11">
+      <created>1672164833014</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1672164833015</updated>
+    </task>
+    <task id="LOCAL-00087" summary="day11">
+      <created>1672164863483</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1672164863483</updated>
+    </task>
+    <task id="LOCAL-00088" summary="day11">
+      <created>1672164874935</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1672164874935</updated>
+    </task>
+    <task id="LOCAL-00089" summary="day11">
+      <created>1672164888257</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1672164888257</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -516,6 +523,7 @@
     <MESSAGE value="task" />
     <MESSAGE value="day9" />
     <MESSAGE value="day10" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10" />
+    <MESSAGE value="day11" />
+    <option name="LAST_COMMIT_MESSAGE" value="day11" />
   </component>
 </project>
