@@ -29,4 +29,7 @@ public abstract class BaseTest {
         // test sonrasinda driver kapatmak (varsa raporlari dosyalamak) icin kullanilir.
         driver.quit();
     }
+
+
+
 }
