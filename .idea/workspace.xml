@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day11">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12_Screenshots/C03_Screenshots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13_Log4j_SeleniumExceptions_ExtentReport/C02_Log4jDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Log4j.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mentoring/interview01" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mentoring/interview01" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,20 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00045" summary="day08">
-      <created>1671738534471</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1671738534471</updated>
-    </task>
-    <task id="LOCAL-00046" summary="day08">
-      <created>1671738735281</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1671738735281</updated>
     </task>
     <task id="LOCAL-00047" summary="day08">
       <created>1671739924293</created>
@@ -502,7 +492,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672170948552</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="day11">
+      <created>1672173466589</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1672173466589</updated>
+    </task>
+    <task id="LOCAL-00095" summary="day11">
+      <created>1672255429937</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1672255429938</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
