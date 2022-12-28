@@ -60,7 +60,6 @@ Bu nedenle de ürünle ilgili potansiyeli zorlar ve görece daha düşük riskle
             Manuel Test ile Otomasyon Test arasındaki farklar nelerdir?
 
             Manuel test otomayon test aracı olmadan yapılır. Otomasyon testlerinde otomasyon araçları kullanılır.
-bu sebeple manuel testler ucuz otomasyon testleri pahalıdır.
             Manuel testler geliştirilmekte olan yazılımdaki hataları bulmak için yapılır.
 otomasyon testi yapabilmek için yazılımın stabil hale gelmesi gerekir.
             Manuel testlerde 1 kişi testleri komut olmadan adım adım yapar. Test uzmanları otomasyon testlerde
@@ -75,21 +74,23 @@ tamamen otomatiktir. manuel teste göre daha çok hata bulur.
 
             Bug raporunda neler belirtilir?
 
+            En önemli şey o hata tekrar nasıl görüleceği belirtilmelidir. bug tekrar üretilebiliyor olmalı.
+            (Title): 'Kaydol' düğmesine tıklandığında uygulama kilitleniyor
+            (Description): Bir kullanıcı bir hesaba kaydolmaya çalıştığında uygulama çöküyor ve kullanıcı hesap
+            oluşturamıyor.
+            (Steps to Reproduce): Kayıt sayfasına gidin
+             > gerekli alanları doldurun
+             > 'Kaydol' CTA'sını tıklayın > uygulama kilitleniyor.
+            (Expected Result): Bir kullanıcı kayıt sayfasındayken, gerekli alanları doldurduğunda ve 'Kaydol'CTA'sını
+            tıkladığında, kullanıcı başarıyla bir hesap için kaydolmuştur.
+           (Actual Result): Bir kullanıcı kayıt sayfasındayken,gerekli alanları doldurup 'Kaydol' CTA'sını tıkladığında,
+           uygulama çöküyor ve kullanıcı hesap oluşturamıyor.
+           Görsel (Visual):Bir ekran görüntüsü, video veya herhangi bir görsel.
+           Öncelik (Priority): Yüksek, orta, düşük vb.
 
             Bug aşamalarını anlatır mısınız?
 
-           (Title): 'Kaydol' düğmesine tıklandığında uygulama kilitleniyor
-            (Description): Bir kullanıcı bir hesaba kaydolmaya çalıştığında uygulama çöküyor ve kullanıcı hesap
-oluşturamıyor.
-            (Steps to Reproduce): Kayıt sayfasına gidin
-            > gerekli alanları doldurun
-            > 'Kaydol' CTA'sını tıklayın > uygulama kilitleniyor.
-           (Expected Result): Bir kullanıcı kayıt sayfasındayken, gerekli alanları doldurduğunda ve 'Kaydol'CTA'sını
- tıkladığında, kullanıcı başarıyla bir hesap için kaydolmuştur.
-           (Actual Result): Bir kullanıcı kayıt sayfasındayken,gerekli alanları doldurup 'Kaydol' CTA'sını tıkladığında,
- uygulama çöküyor ve kullanıcı hesap oluşturamıyor.
-            Görsel (Visual):Bir ekran görüntüsü, video veya herhangi bir görsel.
-            Öncelik (Priority): Yüksek, orta, düşük vb.
+
 
 
             Bug aşamalarını nasıl anlaşılır kılarsınız?
