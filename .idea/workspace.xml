@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day11">
-      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13_Log4j_SeleniumExceptions_ExtentReport/C02_Log4jDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Log4j.java" afterDir="false" />
+    <list default="true" id="5d8d2daa-c5c9-4a81-a46d-49d64345ee91" name="Changes" comment="day13">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13_Log4j_SeleniumExceptions_ExtentReport/C03_ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BaseTestReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mentoring/interview01" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mentoring/interview01" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,48 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671040259687</updated>
-    </task>
-    <task id="LOCAL-00047" summary="day08">
-      <created>1671739924293</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1671739924293</updated>
-    </task>
-    <task id="LOCAL-00048" summary="day08">
-      <created>1671741193360</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1671741193360</updated>
-    </task>
-    <task id="LOCAL-00049" summary="day08">
-      <created>1671741210222</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1671741210222</updated>
-    </task>
-    <task id="LOCAL-00050" summary="day09">
-      <created>1671817733690</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1671817733691</updated>
-    </task>
-    <task id="LOCAL-00051" summary="day09">
-      <created>1671817749758</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1671817749758</updated>
-    </task>
-    <task id="LOCAL-00052" summary="day09">
-      <created>1671817761016</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1671817761016</updated>
     </task>
     <task id="LOCAL-00053" summary="day09">
       <created>1671817770124</created>
@@ -506,7 +462,49 @@
       <option name="project" value="LOCAL" />
       <updated>1672255429938</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="day13">
+      <created>1672255449158</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1672255449158</updated>
+    </task>
+    <task id="LOCAL-00097" summary="day13">
+      <created>1672255459574</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1672255459574</updated>
+    </task>
+    <task id="LOCAL-00098" summary="day13">
+      <created>1672255474101</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1672255474101</updated>
+    </task>
+    <task id="LOCAL-00099" summary="day13">
+      <created>1672255484198</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1672255484198</updated>
+    </task>
+    <task id="LOCAL-00100" summary="day13">
+      <created>1672255496470</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1672255496470</updated>
+    </task>
+    <task id="LOCAL-00101" summary="day13">
+      <created>1672255506633</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1672255506633</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -525,6 +523,7 @@
     <MESSAGE value="day9" />
     <MESSAGE value="day10" />
     <MESSAGE value="day11" />
-    <option name="LAST_COMMIT_MESSAGE" value="day11" />
+    <MESSAGE value="day13" />
+    <option name="LAST_COMMIT_MESSAGE" value="day13" />
   </component>
 </project>
